@@ -1,0 +1,181 @@
+
+            h1,h2,h3,h4,h5,h6{
+                font-family: 'Lato',sans-serif
+            }
+
+            p{
+                font-family:  'Roboto',sans-serif
+            }
+
+    /* mouse over link */
+    li a:hover {
+       color: blue !important;     
+       text-decoration: none;
+       background-color: transparent !important;
+    }
+
+    /* selected link */
+    a:active {
+       color: blue !important;
+       text-decoration: none;
+    } 
+
+    .main{
+        margin-top:-20px; 
+      
+    }
+
+    li.dropdown:hover > .dropdown-menu {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+
+.explore-button{
+    color: #0575E6;
+    border: none;
+
+}
+
+.explore-button:hover{
+    color: #0575E6;
+    border: none; 
+}
+.submit-button{
+    color: #0575E6;
+    border: none;
+
+}
+
+.submit-button:hover{
+    color: #0575E6;
+    border: none; 
+}
+
+
+   
+
+    .nav .active a{
+       color: blue !important;
+       background-color: transparent !important
+
+    }
+    .navbar{
+       box-shadow: 0px 8px 6px -10px #2980b9;
+       background-color: white;
+
+    }
+
+    .paddingTop{
+       padding-top: 100px;
+    }
+
+    .navbar-fixed-top {
+       min-height: 80px;
+    }
+
+    .navbar-nav > li > a {
+       padding-top: 0px;
+       padding-bottom: 0px;
+       line-height: 80px;
+    }
+
+    @media (max-width: 767px) {
+       .navbar-nav > li > a {
+       line-height: 20px;
+       padding-top: 10px;
+       padding-bottom: 10px;}
+    }
+
+
+.white{
+  color: white;
+}
+.black{
+  color: black;
+}
+    .clients-section {
+  background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin-top: 120px;
+  padding: 65px 0 120px;
+  text-align: center; }
+  .clients-section h3 {
+    color: #FFF;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: .3px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+  .clients-section p {
+    font-size: 16px;
+    color: #f8f8f8;
+    margin-top: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+  .clients-section .logos {
+    margin-top: 35px; }
+    .clients-section .logos img {
+      margin: 0 16px; }
+      @media (max-width: 767px) {
+        .clients-section .logos img {
+          margin: 0 auto;
+          display: block;
+          margin-bottom: 15px; } }
+
+
+    .intro-container{
+        padding-top: 160px;
+
+        background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    }
+
+    .our-partners{
+      padding-bottom: 100px;
+      padding-top: 30px
+    }
+
+    .process-area{
+      padding-bottom: 150px
+    }
+
+    .feature-area{
+      padding-bottom: 30px;
+    }
+
+    .about-product-area{
+      background-color: #eeeeee; 
+      padding-bottom: 100px;
+    }
+     
+     .myFooter{
+      margin-top: 40px;
+      background-color: #eeeeee;
+     }
+
+     .newsletter-area{
+      background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 50px
+     }
+
+     .testimonials{
+       background-color: #eeeeee;
+
+     }
+
+
+.service-area{
+
+
+}

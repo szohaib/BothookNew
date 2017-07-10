@@ -1,0 +1,486 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Softee Softwear Template
+    Description: This is html5 template
+    Author: HasTech
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Feature Area
+    2. About Product Area
+    3. Trial Area
+    4. Process Area
+    5. service Area
+    6. About Page
+        6.1 Fun Factor Area
+        6.2 About Tab Area
+    7. Pricing Page
+    8. Contact Page
+    9. Signup / Signin Page
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1. Feature Area
+/*----------------------------------------*/
+.feature-icon, .process-icon {
+    display: inline-block;
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 70px;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+}
+.feature-icon:after, .process-icon:after, .trial-form button:after {
+    background: #2980b9 ; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9) ;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9)  ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.14);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+.feature-icon span, .process-icon span {
+    color: #383838;
+    font-size: 30px;
+    line-height: 69px;
+    position: relative;
+    z-index: 1;
+}
+.single-feature:hover .feature-icon:after, .single-process:hover .process-icon:after, .trial-form button:hover:after { 
+    opacity: 1; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+.single-feature:hover .feature-icon span, .single-process:hover .process-icon span {color: #fff}
+.feature-text {
+    overflow: hidden;
+    padding-left: 30px
+}
+.feature-text h4 {line-height: 24px; margin-bottom: 18px;}
+.feature-text > p {margin: 0;}
+/*----------------------------------------*/
+/*  2. About Product Area
+/*----------------------------------------*/
+.single-abt-product .abt-img {
+    position: absolute;
+    top: 0;
+    width: 54.3%;
+}
+.single-abt-product:nth-child(odd) .abt-img {right: 0;}
+.single-abt-product:nth-child(even) .abt-img {left: 0; right: auto;}
+.single-abt-product {padding-bottom: 107px; position: relative;}
+.single-abt-product:last-child {padding-bottom: 0;}
+.abt-product-text h3 {margin-bottom: 16px;}
+.abt-product-text .default-btn {margin-bottom: 10px; margin-top: 10px;}
+/*----------------------------------------*/
+/*  3. Trial Area
+/*----------------------------------------*/
+.trial-container h2 {
+    color: #ffffff;
+    line-height: 36px;
+    margin-bottom: 17px;
+}
+.trial-container > p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 27px;
+}
+form.trial-form {
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    height: 42px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 438px;
+}
+.trial-form input {
+    border: 0 none;
+    color: #ffffff;
+    font-size: 13px;
+    height: 100%;
+    line-height: 42px;
+    padding: 0 60px 0 15px;
+    width: 53%;
+}
+.trial-form input:first-child {
+    border-right: 1px solid #ffffff;
+    padding: 0 22px;
+    width: 46%;
+}
+.trial-form input::-moz-placeholder, .trial-form textarea::-moz-placeholder {color: #fff;} 
+.trial-form input::-webkit-input-placeholder, .trial-form textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+.trial-form button {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 0 28px 28px 0;
+  color: #00d379;
+  font-size: 18px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 53px;
+}
+.trial-form button:after {border-radius: 0 30px 30px 0}
+.trial-form button i {z-index: 2; position: relative}
+.trial-form button:hover i {color: #fff}
+/*----------------------------------------*/
+/*  4. Process Area
+/*----------------------------------------*/
+.process-icon {float: none; margin-bottom: 17px;}
+.single-process {
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+}
+.border {
+    background: rgba(0, 0, 0, 0) url("border.png") repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    position: absolute;
+    right: -118px;
+    top: 33px;
+    width: 236px;
+}
+.col-md-4:last-child .border {display: none}
+.process-icon > span {
+    color: #5a5a5a;
+    font-size: 30px;
+    font-weight: 700;
+}
+.single-process > h4 {margin-bottom: 11px;}
+.single-process > p {margin: 2px;}
+.service-icon {
+    color: #383838;
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 51px;
+}
+.service-text {overflow: hidden;}
+.service-text > p {color: #383838;}
+.service-text > h4 {
+    line-height: 17px;
+    margin-bottom: 16px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.single-service:hover .service-text > h4, .single-service:hover .service-icon {color: #0575E6;}  /* fallback for old browsers */
+ 
+.single-service {margin-bottom: 45px;}
+/*----------------------------------------*/
+/*  5. service Area
+/*----------------------------------------*/
+.owl-item .testi-img > img {
+    border: 1px solid #00d379;
+    border-radius: 100%;
+    width: auto;
+}
+.testi-img {float: left; padding-top: 7px;}
+.testi-text {overflow: hidden; padding: 0 15px 0 21px;}
+.testi-text p {
+    color: #383838;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.testi-text > h4, .testi-text > span {
+    color: #383838;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 44px;
+    position: relative;
+}
+.testi-text > h4:after {
+    background: #383838 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+/*----------------------------------------*/
+/*  6. About Page
+/*----------------------------------------*/
+.about-text h3 {line-height: 20px; margin-bottom: 33px;}
+.about-text > p:first-of-type {margin-bottom: 27px;}
+.about-text > p:last-of-type {margin-bottom: 35px;}
+/*----------------------------------------*/
+/*  6.1 Fun Factor Area
+/*----------------------------------------*/
+.single-fun-factor > span {display: inline-block; font-size: 48px;}
+.single-fun-factor {text-align: center;}
+.fun-text {display: inline-block; padding-left: 16px;}
+.fun-text > h3 {
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.fun-text > h4 {font-size: 20px; text-align: left;}
+/*----------------------------------------*/
+/*  6.2 About Tab Area
+/*----------------------------------------*/
+.tab-image {padding-top: 56px;}
+.nav.nav-tabs {border: 0 none;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    color: #383838;
+}
+.nav-tabs > li {margin-right: 27px; padding-bottom: 17px;}
+.nav-tabs > li:last-child {margin-right: 0}
+.nav-tabs li:after {
+    background: #00d379 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.nav-tabs li.active:after {opacity: 1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";}
+.nav-tabs > li > a {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #383838;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.tab-text > p:first-child {margin-bottom: 26px;}
+.tab-text {padding-top: 55px;}
+.feature-section .single-feature {
+    margin-bottom: 62px;
+}
+/*----------------------------------------*/
+/*  7. Pricing Page
+/*----------------------------------------*/
+.single-table {
+    border: 1px solid #c1c1c1;
+    overflow: hidden;
+    padding: 56px 50px 58px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-table:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 13.16px 0.84px rgba(0, 0, 0, 0.1);
+}
+.table-title h3 {
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 21px;
+}
+.table-title > h2 {font-size: 24px; margin-bottom: 22px;}
+.table-title > h2 span {font-size: 36px;}
+.table-list > span {
+    color: #383838;
+    display: block;
+    line-height: 37px;
+}
+.table-btn {margin-top: 25px;}
+.table-btn > a {
+    border: 1px solid #383838;
+    color: #383838;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 44px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+.table-btn > a:hover {background: #383838; color: #fff}
+.single-table > span {
+    bottom: -14px;
+    color: #383838;
+    font-size: 136px;
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    position: absolute;
+    right: -143px;
+    -webkit-transform: rotate(-47deg);
+            transform: rotate(-47deg);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-table:hover > span {right: -4px;
+/*----------------------------------------*/
+/*  8. Contact Page
+/*----------------------------------------*/}
+.contact-form-map-area {padding: 210px 0 120px;}
+.contact-form {
+    background: #f5f5f5 none repeat scroll 0 0;
+    height: 540px;
+    margin-top: -540px;
+    padding: 53px 30px 40px;
+    position: relative;
+    z-index: 1;
+}
+.contact-title {
+    margin-bottom: 37px;
+    text-align: center;
+}
+#contact-form input, #contact-form textarea {
+    border: 1px solid #c1c1c1;
+    color: #666666;
+    font-size: 12px;
+    height: 40px;
+    margin-bottom: 21px;
+}
+#contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder {color: #666666;} 
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
+    color: #666666;
+}
+#contact-form > .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#contact-form > .row > .col-md-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contact-form textarea {height: 153px;}
+.submit-btn {
+    background: #00d379 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #fefefe;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 41px;
+    margin-top: 20px;
+    padding: 0 49px;
+    text-transform: uppercase;
+}
+.submit-btn.gradient:after {
+    border-radius: 0; 
+    width: 100%; 
+    height: 100%; 
+    left: 0; 
+    right: 0;
+    top: 0
+}
+.single-c-info > span {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    color: #555555;
+    display: inline-block;
+    font-size: 36px;
+    height: 80px;
+    left: 0;
+    line-height: 80px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    width: 80px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.c-text {
+    border: 1px solid #c1c1c1;
+    color: #555555;
+    font-size: 18px;
+    line-height: 31px;
+    padding: 60px 0 23px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.single-c-info:hover > span {
+    background: #00d379 none repeat scroll 0 0;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.single-c-info:hover .c-text {
+    background: #00d379 none repeat scroll 0 0;
+    color: #ffffff;
+}
+/*----------------------------------------*/
+/*  9. Signup / Signin Page
+/*----------------------------------------*/
+.form-container {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    padding: 60px 80px;
+}
+.form-logo a {display: inline-block;}
+.form-logo {padding-bottom: 34px; text-align: center;}
+.form-box label {
+    color: #555555;
+    font-size: 13px;
+    margin-bottom: 11px;
+}
+.form-container .row {margin-left: -10px; margin-right: -10px;}
+.form-container .col-md-6 {padding-left: 10px; padding-right: 10px;}
+.form-container input {
+    border: 1px solid #c1c1c1;
+    color: #a2a2a2;
+    font-size: 12px;
+    height: 39px;
+}
+.form-container input::-moz-placeholder, .form-container textarea::-moz-placeholder {color: #a2a2a2;} 
+.form-container input::-webkit-input-placeholder, .form-container textarea::-webkit-input-placeholder {
+    color: #a2a2a2;
+}
+.form-box {margin-bottom: 24px;}
+.form-btn button.submit-btn {
+    margin-top: 15px;
+    padding: 0;
+    width: 136px
+}
+.box-left > input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    cursor: pointer;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    width: 18px;
+}
+.box-left > label {cursor: pointer; margin: 0;}
+.box-left {display: inline-block; float: left;}
+.box-right {display: inline-block; float: right;}
+.box-right > a {
+    color: #555555;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 35px;
+}
+.box-right > a:hover {color: #00d379;}
+.login.form-btn button.submit-btn {margin-top: 8px;}
