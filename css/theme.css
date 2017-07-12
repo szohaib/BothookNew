@@ -4556,9 +4556,9 @@ section.parallax .row .background-image-holder {
   top: 1.23809524em;
   right: 1.23809524em;
 }
-.label:not([class*='bg--']) {
+/*.label:not([class*='bg--']) {
   background: #31639c;
-}
+}*/
 .label.label--inline {
   position: relative;
   top: 0;
